@@ -38,6 +38,7 @@ for coll in data_list:
                 y_min = img_height
                 y_max = 0
                 for p in e["skeleton"]["nodes"]:
+                    parts[p["name"]]=[int(p["x"]),int(p["y"]),int(p["occluded"])+1]
                     if int(p["x"]) < x_min:
                         x_min = int(p["x"])
                         if x_min < 0: 
