@@ -21,7 +21,7 @@ log_config = dict(
     interval=1,
     hooks=[
         dict(type='TextLoggerHook'),
-        dict(type='WandbLoggerHook')
+        # dict(type='TensorboardLoggerHook')
     ])
 
 channel_cfg = dict(
@@ -37,7 +37,7 @@ channel_cfg = dict(
 checkpoint_config = dict(interval=10)
 
 # model settings
-load_from = './hrnet_w32_animalpose_256x256-1aa7f075_20210426.pth',
+# load_from = '/home/bresilla/Projects/mmpose/mmpose/hrnet_w32_animalpose_256x256-1aa7f075_20210426.pth',
 model = dict(
     type='TopDown',
     pretrained='https://download.openmmlab.com/mmpose/'
@@ -176,16 +176,5 @@ data = dict(
         pipeline=test_pipeline,
         dataset_info={{_base_.dataset_info}}),
 )
-
-# log_config = dict(
-#     interval=10,
-#     hooks=[
-#         dict(type='WandbLogger',
-#             init_kwargs={'entity': "trim_bresilla", 'project': "cow_pose"},
-#             interval=10,
-#             log_checkpoint=True,
-#             log_checkpoint_metadata=True,
-#             log_evaluation=True)
-#     ])
 
 workflow = [("train",1),("val",1)]
