@@ -3,7 +3,7 @@ import json
 import cv2
 import time
 
-json_file = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/newr/coco.json"
+json_file = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/newr/train.json"
 
 with open(json_file, 'r') as fcc_file:
     fcc_data = json.load(fcc_file)
@@ -12,7 +12,7 @@ images = fcc_data["images"]
 current = 0;
 
 for pic in (n for n in range(len(fcc_data['images']))):
-    image_path = fcc_data["images"][pic]["file_name"]
+    image_path = fcc_data["images"][pic]["full_name"]
     image_id = fcc_data["images"][pic]["id"]
     img = cv2.imread(image_path, cv2.IMREAD_COLOR)
     for e in (n for n in fcc_data['annotations'] if n["image_id"] == image_id):
