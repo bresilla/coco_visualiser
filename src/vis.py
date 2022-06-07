@@ -3,7 +3,7 @@ import json
 import cv2
 import time
 
-json_file = "coco/dw.json"
+json_file = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/newr/coco.json"
 
 with open(json_file, 'r') as fcc_file:
     fcc_data = json.load(fcc_file)
