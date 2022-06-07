@@ -148,8 +148,8 @@ test_pipeline = val_pipeline
 
 data_root = '/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose'
 data = dict(
-    samples_per_gpu=64,
-    workers_per_gpu=2,
+    samples_per_gpu=32,
+    workers_per_gpu=1,
     val_dataloader=dict(samples_per_gpu=32),
     test_dataloader=dict(samples_per_gpu=32),
     train=dict(
