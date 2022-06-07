@@ -104,8 +104,8 @@ for coll in data_list:
         }
 
     info = {
-        "data_path": impath,
         "version": "1.0",
+        "data_path": impath,
         "date_created": str(datetime.datetime.now()),
         "dataset_size": len(coll["images"])
     }
