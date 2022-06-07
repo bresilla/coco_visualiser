@@ -40,17 +40,24 @@ for coll in data_list:
                 for p in e["skeleton"]["nodes"]:
                     if int(p["x"]) < x_min:
                         x_min = int(p["x"])
-                        if x_min < 0: x_min = 0
+                        if x_min < 0: 
+                            x_min = 0
+                            parts[p["name"]]=[int(p["x"]),int(p["y"]),0]
                     if int(p["x"]) > x_max:
                         x_max = int(p["x"])
-                        if x_max > img_width: x_max + img_width
+                        if x_max > img_width: 
+                            x_max + img_width
+                            parts[p["name"]]=[int(p["x"]),int(p["y"]),0]
                     if int(p["y"]) < y_min:
                         y_min = int(p["y"])
-                        if y_min < 0: y_min = 0
+                        if y_min < 0: 
+                            y_min = 0
+                            parts[p["name"]]=[int(p["x"]),int(p["y"]),0]
                     if int(p["y"]) > y_max:
                         y_max = int(p["y"])
-                        if y_max > img_height: y_max + img_height
-                    parts[p["name"]]=[int(p["x"]),int(p["y"]),int(p["occluded"])+1]
+                        if y_max > img_height: 
+                            y_max + img_height
+                            parts[p["name"]]=[int(p["x"]),int(p["y"]),0]
                 ann_width = x_max-x_min
                 ann_height = y_max-y_min
                 keypoints = [
