@@ -3,8 +3,8 @@ import random
 import json
 import os
 
-direc = ".direnv/dataset/wur-agrofoodrobotics/cow_pose/releases/dv/annotations/"
-impath = ".direnv/dataset/wur-agrofoodrobotics/cow_pose/images/"
+direc = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/dv/annotations/"
+impath = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/"
 json_file = "coco/dw.json"
 
 directory_list = os.listdir(direc)
@@ -18,7 +18,7 @@ for file in directory_list:
         fcc_data = json.load(fcc_file)
         image_struct = {
             "id": i,
-            "file_name": fcc_data["image"]["original_filename"],
+            "file_name": impath + fcc_data["image"]["original_filename"],
             "width": int(fcc_data['image']['width']),
             "height": int(fcc_data['image']['height'])
         }

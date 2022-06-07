@@ -1,212 +1,212 @@
 {
     "info": {
-        "data_path": ".direnv/dataset/wur-agrofoodrobotics/cow_pose/images/",
+        "data_path": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/",
         "version": "1.0",
-        "date_created": "2022-06-07 12:36:11.601260",
+        "date_created": "2022-06-07 12:54:39.864692",
         "dataset_size": 34
     },
     "images": [
         {
             "id": 86869,
-            "file_name": "ch01_20211029152244_3183.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_3183.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86870,
-            "file_name": "ch01_20211029152244_3540.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_3540.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86871,
-            "file_name": "ch01_20211029163009_37470.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_37470.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86872,
-            "file_name": "ch01_20211029130754_3066.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_3066.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86873,
-            "file_name": "ch01_20211029130754_11056.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_11056.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86874,
-            "file_name": "ch01_20211029130754_50272.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_50272.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86875,
-            "file_name": "ch01_20211029130754_50062.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_50062.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86876,
-            "file_name": "ch01_20211029130754_49760.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_49760.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86877,
-            "file_name": "ch01_20211029152244_16695.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_16695.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86878,
-            "file_name": "ch01_20211029130754_11057.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_11057.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86879,
-            "file_name": "ch01_20211029130754_2141.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_2141.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86880,
-            "file_name": "ch01_20211029163009_37477.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_37477.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86881,
-            "file_name": "ch01_20211029163009_35179.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_35179.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86882,
-            "file_name": "ch01_20211029130754_11041.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_11041.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86883,
-            "file_name": "ch01_20211029141520_48671.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029141520_48671.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86884,
-            "file_name": "ch01_20211029152244_418.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_418.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86885,
-            "file_name": "ch01_20211029130754_55759.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_55759.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86886,
-            "file_name": "ch01_20211029152244_16686.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_16686.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86887,
-            "file_name": "ch01_20211029152244_16707.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_16707.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86888,
-            "file_name": "ch01_20211029163009_30121.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_30121.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86889,
-            "file_name": "ch01_20211029152244_16635.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_16635.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86890,
-            "file_name": "ch01_20211029141520_60501.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029141520_60501.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86891,
-            "file_name": "ch01_20211029163009_36392.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_36392.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86892,
-            "file_name": "ch01_20211029152244_16715.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_16715.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86893,
-            "file_name": "ch01_20211029163009_35911.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_35911.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86894,
-            "file_name": "ch01_20211029152244_3599.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_3599.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86895,
-            "file_name": "ch01_20211029152244_4276.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_4276.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86896,
-            "file_name": "ch01_20211029130754_49661.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_49661.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86897,
-            "file_name": "ch01_20211029130754_12478.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_12478.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86898,
-            "file_name": "ch01_20211029130754_55341.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_55341.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86899,
-            "file_name": "ch01_20211029130754_50235.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_50235.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86900,
-            "file_name": "ch01_20211029152244_6300.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029152244_6300.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86901,
-            "file_name": "ch01_20211029130754_11077.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029130754_11077.jpg",
             "width": 2560,
             "height": 1440
         },
         {
             "id": 86902,
-            "file_name": "ch01_20211029163009_35465.jpg",
+            "file_name": "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/ch01_20211029163009_35465.jpg",
             "width": 2560,
             "height": 1440
         }
