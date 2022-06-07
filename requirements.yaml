@@ -1,0 +1,13 @@
+name: DEEPLABCUT
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - ipython
+  - jupyter
+  - nb_conda
+  - ffmpeg
+  - pip:
+    - "deeplabcut[gui]"
