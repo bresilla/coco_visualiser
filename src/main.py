@@ -11,7 +11,7 @@ directory_list = os.listdir(direc)
 random.shuffle(directory_list)
 
 split=int((len(directory_list)/10)*8)
-data_list = [{"images": directory_list[:split], "name": "train.json"}, {"images": directory_list[split:], "name": "test.json"}]
+data_list = [{"images": directory_list[:split], "name": "train.json"}, {"images": directory_list[split:], "name": "val.json"}]
 
 for coll in data_list:
     images = []
