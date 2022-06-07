@@ -3,9 +3,9 @@ import random
 import json
 import os
 
-direc = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/dv/annotations/"
+direc = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/newr/annotations/"
 impath = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/images/"
-json_file = "coco/dw.json"
+json_file = "/home/bresilla/.darwin/datasets/wur-agrofoodrobotics/cow_pose/releases/newr/coco.json"
 
 directory_list = os.listdir(direc)
 i = 86868;
