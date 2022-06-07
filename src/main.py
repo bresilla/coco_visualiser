@@ -5,23 +5,20 @@ import os
 
 direc = ".direnv/dataset/wur-agrofoodrobotics/cow_pose/releases/dv/annotations/"
 impath = ".direnv/dataset/wur-agrofoodrobotics/cow_pose/images/"
-json_file = ".direnv/dw.json"
+json_file = "coco/dw.json"
 
 directory_list = os.listdir(direc)
 i = 86868;
-d = 0;
-all = {}
 images = []
 annotations = []
 
 for file in directory_list:
     i = i + 1
-    pathname, extension = os.path.splitext(file)
     with open(direc + file, 'r') as fcc_file:
         fcc_data = json.load(fcc_file)
         image_struct = {
             "id": i,
-            "file_name": pathname + ".jpg",
+            "file_name": fcc_data["image"]["original_filename"],
             "width": int(fcc_data['image']['width']),
             "height": int(fcc_data['image']['height'])
         }
@@ -75,7 +72,7 @@ for file in directory_list:
             datas = {
                 "keypoints": [float(item) for sub_list in keypoints for item in sub_list],
                 "image_id": i,
-                "id": d,
+                "id": e["instance_id"]["value"],
                 "num_keypoints": 20,
                 "bbox": [float(x_min), float(y_min), float(ann_width), float(ann_height)],
                 "iscrowd": 0,
@@ -89,7 +86,6 @@ for file in directory_list:
                 "height": ann_height,
                 "points": keypoints,
             }
-            d = d + 1
             annotations.append(datas)
 
 
@@ -112,6 +108,5 @@ all = {"info": info, "images": images, "annotations": annotations, "categories":
 json_object = json.dumps(all, indent = 4) 
 print(json_object)
 
-# with open(json_file, 'w') as f:
-#     json.dump(json_object, f)
-# f.close()
+with open(json_file, 'w') as f:
+    f.write(json_object)

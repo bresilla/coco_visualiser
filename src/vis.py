@@ -3,7 +3,7 @@ import json
 import cv2
 import time
 
-json_file = ".direnv/dw.json"
+json_file = "coco/dw.json"
 image_folder = ".direnv/dataset/wur-agrofoodrobotics/cow_pose/images/"
 
 with open(json_file, 'r') as fcc_file:
