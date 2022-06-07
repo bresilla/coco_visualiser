@@ -35,6 +35,7 @@ channel_cfg = dict(
     ])
 
 # model settings
+# load_from = '../../../../../hrnet_w32_animalpose_256x256-1aa7f075_20210426.pth',
 model = dict(
     type='TopDown',
     pretrained='https://download.openmmlab.com/mmpose/'
